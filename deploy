@@ -1,0 +1,7 @@
+ssh ubuntu@52.42.115.80 <<EOF        
+ cd /nodecrud  
+ git pull       
+ npm install --production       
+ pm2 restart all
+ exit       
+EOF
