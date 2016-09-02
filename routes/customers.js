@@ -1,6 +1,6 @@
 
 /*
- * GET customers listing.
+ * GET customers listing..
  */
 
 exports.list = function(req, res){
