@@ -1,6 +1,7 @@
 
 /**
  * Module dependencies.
+ *
  */
 
 var express = require('express');
@@ -54,7 +55,7 @@ app.use(
 
 
 app.get('/', routes.index);
-app.get('/customers', customers.list);
+app.get('/customerssudo npm install pm2 -g', customers.list);
 app.get('/customers/add', customers.add);
 app.post('/customers/add', customers.save);
 app.get('/customers/delete/:id', customers.delete_customer);
